@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+# Stopwatch realization
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was made with React and RxJS tools by Olena Yurchenko.
 
-## Available Scripts
+## Requirements
 
-In the project directory, you can run:
+Stopwatch must have:
+* Time rendered in format "HH:MM:SS";
+* "Start/Stop" button;
+* "Wait" button activated with double-click in 300 ms;
+* "Reset" button;
+* Functional approach;
+* Observables applying.
 
-### `npm start`
+## Result
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+First screen presented with counter and three buttons different colours.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+![counter and buttons](https://github.com/demchenkohell/stopwatch/blob/main/img/first_screen.jpg?raw=true)
 
-### `npm test`
+After pushing "Start" button stopwatch activates. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![running stopwatch](https://github.com/demchenkohell/stopwatch/blob/main/img/running_timer.jpg?raw=true)
 
-### `npm run build`
+First button changes on "Stop" one. "Reset" button provides restarting countdown from zero uninterruptedly.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Double-clicked "Wait" stop stopwatch at current value.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![waiting stopwatch](https://github.com/demchenkohell/stopwatch/blob/main/img/stoped.jpg?raw=true)

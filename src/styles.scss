@@ -1,0 +1,42 @@
+$start_button: rgba(20, 200, 100, 0.5);
+$start_activated: rgba(5, 175, 75, 0.5);
+$stop_button: rgba(200, 50, 10, 0.5);
+$stop_activated: rgba(175, 35, 5, 0.5);
+$reset_button: rgba(200, 170, 20, 0.5);
+$reset_activated: rgba(175, 150, 10, 0.5);
+$wait_button: rgba(100, 40, 250, 0.5);
+$wait_activated: rgba(70, 20, 200, 0.5);
+
+*{background-color: rgba(230, 230, 230, 1)}
+
+button{
+    width: 120px;
+    height: 70px;
+    border: none;
+    font-size: 24px;
+    border-radius: 3px;
+}
+.timer{
+    margin-top: 10%;
+    font-family: sans-serif;
+    font-size: 46px;
+    text-align: center;
+    padding: 20px;
+    height: 70px;
+}
+.buttons{
+    display: flex;
+    margin: auto;
+    width: 500px;
+    justify-content: space-around;
+}
+.stop{background: $start_button;}
+.stop:active{background: $start_activated;}
+.start{background: $stop_button;}
+.start:active{background: $stop_activated;}
+.wait{background: $start_button;}
+.wait:active{background: $start_activated;}
+.reset{background: $reset_button;}
+.reset:active{background: $reset_activated;}
+.wait_permanent{background: $wait_button;}
+.wait_permanent:active{background: $wait_activated;}

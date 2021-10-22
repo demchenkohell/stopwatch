@@ -16,14 +16,14 @@ Stopwatch must have:
 
 First screen presented with counter and three buttons different colours.
 
-![counter and buttons](https://github.com/demchenkohell/stopwatch/blob/main/img/first_screen.jpg?raw=true)
+![counter and buttons](https://github.com/demchenkohell/stopwatch/blob/master/img/first_screen.jpg?raw=true)
 
 After pushing "Start" button stopwatch activates. 
 
-![running stopwatch](https://github.com/demchenkohell/stopwatch/blob/main/img/running_timer.jpg?raw=true)
+![running stopwatch](https://github.com/demchenkohell/stopwatch/blob/master/img/running_timer.jpg?raw=true)
 
 First button changes on "Stop" one. "Reset" button provides restarting countdown from zero uninterruptedly.
 
 Double-clicked "Wait" stop stopwatch at current value.
 
-![waiting stopwatch](https://github.com/demchenkohell/stopwatch/blob/main/img/stoped.jpg?raw=true)
+![waiting stopwatch](https://github.com/demchenkohell/stopwatch/blob/master/img/stoped.jpg?raw=true)
